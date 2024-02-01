@@ -1,0 +1,210 @@
+/* .mainContainer {
+  height: 650px;
+  width: 100%;
+   background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  position: fixed;
+}
+.musicListContainer {
+  width: 60%;
+  height: 500px;
+  background-color: rgb(104, 74, 74);
+}
+.musicList {
+  margin-left: 30px;
+}
+.songItem {
+  background-color: white;
+  width: 50%;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.songItem img {
+  height: 50px;
+  width: 50px;
+}
+.player {
+  width: 50%;
+  height: 500px;
+  background-color: rgb(55, 59, 68);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.player2 {
+  background-color: aliceblue;
+  width: 90%;
+  align-items: center;
+  text-align: center;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: rgb(49, 50, 52);
+}
+#myProgressBar {
+  width: 90%;
+  margin-top: 10px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.musicPhoto img {
+  margin-left: 10px;
+  height: 250px;
+  margin-right: 10px;
+  width: 80%;
+  display: inline-block;
+  position: relative;
+  border-radius: 5%;
+  box-shadow: 0 9px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bottom {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.bottom .icons {
+  cursor: pointer;
+  color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.icons i:nth-child(1) {
+  font-size: 2.7rem;
+}
+.icons i:nth-child(2) {
+  font-size: 4.7rem;
+}
+.icons i:nth-child(3) {
+  font-size: 2.7rem;
+}
+.songItem i {
+  cursor: pointer;
+}  */
+
+/* Reset some default styles */
+
+body {
+  font-family: "Helvetica", Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.mainContainer {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+}
+
+.musicListContainer {
+  padding: 20px;
+  width: 700px;
+}
+.songItem {
+  background-color: white;
+  width: 70%;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #f4f4f4;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.songItem img {
+  height: 50px;
+  width: 50px;
+}
+
+.musicList h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.songListPlay {
+  display: flex;
+  align-items: center;
+}
+
+.songListPlay span {
+  margin-right: 15px;
+  color: #777;
+}
+
+.player {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  width: 300px;
+}
+
+.player2 {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.musicPhoto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 10%;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myProgressBar {
+  width: 200%;
+  margin-bottom: 15px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+}
+
+.icons i {
+  cursor: pointer;
+  color: #777;
+  transition: color 0.3s ease;
+}
+
+.icons i:hover {
+  color: #ff9800;
+}
